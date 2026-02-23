@@ -32,9 +32,12 @@ padding-left: 10px;
 #noticias{ 
 
     text-align: center;
-    justify-content: space-around;
-    padding: 6px;
+    justify-content: center;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .noticia{
